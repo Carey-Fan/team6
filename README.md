@@ -4,8 +4,17 @@
 - Output: A smaller PPM file.
 - Hint: Watch for image dimensions not divisible by 2.
 
-## How to Run
+# Compile code
+```c
+gcc -o resize_image image.c
+```
 
-### Windows (Using Executable)
-```bash
+# Run code
+```sehll
+./resize_image input.ppm output.ppm
+```
+
+## Windows (Using Executable)
+```shell
 resize_image.exe sample_640x426.ppm output.ppm
+```
