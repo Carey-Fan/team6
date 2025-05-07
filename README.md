@@ -18,3 +18,5 @@ gcc -o resize_image image.c
 ```shell
 resize_image.exe sample_640x426.ppm output.ppm
 ```
+
+# test pull request
