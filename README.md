@@ -13,3 +13,8 @@ gcc -o resize_image image.c
 ```sehll
 ./resize_image input.ppm output.ppm
 ```
+
+## Windows (Using Executable)
+```shell
+resize_image.exe sample_640x426.ppm output.ppm
+```
